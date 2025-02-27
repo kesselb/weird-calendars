@@ -12,7 +12,7 @@ $today->setTime(14, 00, 00);
 
 $vcalendar = new VCalendar();
 
-for ($i = 1; $i <= 10000; $i++) {
+for ($i = 1; $i <= 2500; $i++) {
     $today->add(new DateInterval('P1D'));
 
     /** @var VEvent $vevent */
