@@ -1,0 +1,6 @@
+{
+    "require": {
+        "bytestream/horde-mime": "^2.13",
+        "sabre/vobject": "^4.5"
+    }
+}
